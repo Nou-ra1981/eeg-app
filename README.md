@@ -4,9 +4,25 @@ A web-based EEG signal visualization and analysis tool built with React (Vite) a
 It allows users to load EEG data, view time-domain and frequency-domain (PSD) graphs, and visualize band power distributions.
 
 ---
-## 🚀 Live Demo
+### ▶️ Quick Start
 
-🌐 [View the app in GitHub Codespaces](https://glowing-lamp-44gx7q6pqgg2j7v5-5173.app.github.dev/)  
+1. Click the green **"Code"** button → **"Open in Codespaces"**.
+2. Once inside Codespaces:
+   - In one terminal, run:
+
+     
+     cd backend
+     source venv/bin/activate
+     python app.py
+   
+
+   - In another terminal, run:
+
+     cd frontend/eeg-visualizer
+     npm run dev
+     
+
+   Open `http://localhost:5173` from the "Ports" tab in Codespaces.
 
 
 ---
