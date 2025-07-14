@@ -8,21 +8,24 @@ It allows users to load EEG data, view time-domain and frequency-domain (PSD) gr
 
 1. Click the green **"Code"** button → **"Open in Codespaces"**.
 2. Once inside Codespaces:
-   - In one terminal, run:
+   - In the **first terminal**, run:
 
-     
+     ```bash
      cd backend
      source venv/bin/activate
      python app.py
-   
+     ```
 
-   - In another terminal, run:
+   - In the **second terminal**, run:
 
+     ```bash
      cd frontend/eeg-visualizer
+     npm install
      npm run dev
+     ```
      
 
-   Open `http://localhost:5173` from the "Ports" tab in Codespaces.
+3.Open `http://localhost:5173` from the "Ports" tab in Codespaces.
 
 
 ---
